@@ -3,7 +3,7 @@
 A modern, responsive landing page for an artist support startup. This page showcases a clean, minimalist design with a focus on visual aesthetics and user experience.
 
 ## Features
-- Modern, dark theme design
+- Modern, dark theme design with animated GIF hero section
 - Responsive layout
 - Beautiful typography using Inter font
 - Image gallery with hover effects
@@ -15,4 +15,7 @@ A modern, responsive landing page for an artist support startup. This page showc
 - Google Fonts
 
 ## Live Demo
-Visit the live site at: https://chloefang.github.io/artist-landing/
+Visit the live site at: https://chloefang95.github.io/artist-landing/
+
+## Last Updated
+December 10, 2024
