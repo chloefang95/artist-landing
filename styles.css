@@ -70,13 +70,31 @@ body {
     padding: 0 20px;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
+.logo {
+    font-family: 'Orbitron', sans-serif;
     font-size: 4.5rem;
-    font-weight: 900;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+}
+
+.logo .ai {
+    background: linear-gradient(45deg, #1B3B6F, #065A82);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6.5rem;
+    font-weight: 600;
     margin-bottom: 1.5rem;
-    text-shadow: var(--text-shadow);
-    background: linear-gradient(45deg, var(--neon-pink), var(--neon-purple));
+    background: linear-gradient(45deg, #1B3B6F, #065A82);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -87,6 +105,7 @@ h1 {
     margin-bottom: 2rem;
     color: #ffffff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Orbitron', sans-serif;
 }
 
 .cta-button {
