@@ -138,5 +138,13 @@
             alert('Thank you for joining our waitlist!');
         });
         </script>
-</body>
+    <script>
+        // Prevent automatic scrolling on page load
+        window.addEventListener('load', function() {
+            if (window.location.hash) {
+                window.scrollTo(0, 0);
+                history.replaceState(null, '', window.location.pathname);
+            }
+        });
+    </script></body>
 </html>

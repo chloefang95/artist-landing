@@ -115,6 +115,7 @@ h1 {
 .cta-button {
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(45deg, var(--neon-pink), var(--neon-purple));
     color: white;
     border: none;
@@ -276,6 +277,7 @@ h1 {
     color: #ffffff;
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .waitlist-form {
@@ -315,6 +317,8 @@ h1 {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .waitlist-button:hover {
@@ -496,66 +500,4 @@ footer {
     .gallery {
         grid-template-columns: 1fr;
     }
-}/* Waitlist Section */
-.waitlist {
-    background: linear-gradient(45deg, rgba(27, 59, 111, 0.95), rgba(6, 90, 130, 0.95));
-    padding: 4rem 0;
-    text-align: center;
-}
-
-.waitlist h2 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 2.5rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
-}
-
-.waitlist p {
-    color: #ffffff;
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-}
-
-.waitlist-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.input-group {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    padding: 0 1rem;
-}
-
-.input-group input {
-    flex: 1;
-    padding: 1rem 1.5rem;
-    border: none;
-    border-radius: 30px;
-    font-size: 1rem;
-    background: rgba(255, 255, 255, 0.9);
-    transition: all 0.3s ease;
-}
-
-.input-group input:focus {
-    outline: none;
-    background: #ffffff;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-}
-
-.waitlist-button {
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 30px;
-    background: linear-gradient(45deg, #7EB2DD, #45B7D1);
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.waitlist-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(69, 183, 209, 0.4);
 }
